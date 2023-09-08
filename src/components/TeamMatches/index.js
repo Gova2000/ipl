@@ -71,15 +71,11 @@ class Tmatch extends Component {
     const {banner, latestmatch, list1, toggle} = this.state
 
     return (
-      <div className="linkbg1" data-testid="loader">
+      <div className="linkbg1">
         {toggle ? (
-          <Loader
-            type="TailSpin"
-            testid="loader"
-            color="#00BFFF"
-            height={50}
-            width={50}
-          />
+          <div className="loader-container" data-testid="loader">
+            <Loader type="Oval" color="#ffffff" height={50} />
+          </div>
         ) : (
           <>
             <ul className="linkbg">

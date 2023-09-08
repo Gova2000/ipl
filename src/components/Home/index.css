@@ -34,6 +34,12 @@
   align-self: center;
   flex-direction: row;
 }
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
 
 @media (max-width: 576px) {
   .mainbg {

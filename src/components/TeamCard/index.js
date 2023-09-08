@@ -8,7 +8,7 @@ const TCard = props => {
   const {id, name, teamImageUrl} = det
 
   return (
-    <Link to={`/ipl/${id}`} className="link">
+    <Link to={`/team-matches/${id}`} className="link">
       <li className="li">
         <div className="row1">
           <img src={teamImageUrl} alt={name} className="img" />

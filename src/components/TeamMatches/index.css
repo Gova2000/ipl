@@ -16,6 +16,12 @@
   justify-content: center;
   align-items: center;
 }
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
 
 .banner {
   height: 350px;

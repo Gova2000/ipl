@@ -27,7 +27,11 @@ const LMatch = props => {
           <p>{venue}</p>
           <p>{result}</p>
         </div>
-        <img src={competingTeamlogo} alt={competingTeam} className="imgli" />
+        <img
+          src={competingTeamlogo}
+          alt={`latest match ${competingTeam}`}
+          className="imgli"
+        />
       </div>
       <hr />
       <div className="linkcol">

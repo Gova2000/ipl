@@ -32,15 +32,11 @@ class Home extends Component {
     const {list, toggle} = this.state
 
     return (
-      <div className="mainbg" data-testid="loader">
+      <div className="mainbg">
         {toggle ? (
-          <Loader
-            type="TailSpin"
-            color="#00BFFF"
-            testid="loader"
-            height={50}
-            width={50}
-          />
+          <div className="loader-container" data-testid="loader">
+            <Loader type="Oval" color="#ffffff" height={50} />
+          </div>
         ) : (
           <>
             <div className="heading">
@@ -56,7 +52,6 @@ class Home extends Component {
                 <TCard det={each} key={each.id} />
               ))}
             </ul>
-            ,
           </>
         )}
       </div>

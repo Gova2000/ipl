@@ -22,7 +22,11 @@ const MAtcard = props => {
 
   return (
     <li className="li2">
-      <img src={competingTeamlogo} alt={competingTeam} className="liimg" />
+      <img
+        src={competingTeamlogo}
+        alt={`competing team ${competingTeam}`}
+        className="liimg"
+      />
       <p className="fs1">{competingTeam}</p>
       <p className="fs2">{result}</p>
       <p className={col}>{matchStatus}</p>
