@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.latst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #0f172a;
+  height: 350px;
+  width: 100%;
+  font-family: Bree Serif;
+  margin-top: 10px;
+}
+.lats {
+  width: 100%;
+}
+.linkcol {
+  display: flex;
+  flex-direction: column;
+}
+.linkcol1 {
+  display: flex;
+  flex-direction: row;
+}
+.h1 {
+  font-size: large;
+  margin: 0px;
+  width: 150px;
+  color: #ffffff;
+}
+.imgli {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  align-self: center;
+}
+hr {
+  border: 2px solid #475569;
+  display: none;
+}
+@media (max-width: 576px) {
+  .latst {
+    flex-direction: column;
+    height: 100%;
+  }
+  hr {
+    border: 2px solid #475569;
+    display: block;
+    width: 100%;
+  }
+  .imgli {
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.li2 {
+  background-color: #0f172a;
+  height: 300px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin: 5px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: Bree Serif;
+}
+.fs1 {
+  font-size: smaller;
+  width: 100px;
+}
+.fs2 {
+  font-size: smaller;
+}
+.liimg {
+  height: 80px;
+  width: 80px;
+}
+
+.fs3 {
+  font-size: smaller;
+}
+
+.col1 {
+  color: #e31a1a;
+}
+.col2 {
+  color: #18ed66;
+}
+.link {
+  text-decoration: none;
+}

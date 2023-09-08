@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.li {
+  list-style: none;
+  border: 1px solid #ffffff33;
+  background-color: #ffffff33;
+  color: #ffffff;
+  font-size: small;
+  font-family: Bree Serif;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100px;
+  padding: 5px;
+  width: 290px;
+  margin: 5px;
+}
+.img {
+  height: 70px;
+  width: 60px;
+}
+.row1 {
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+}
+.h1t {
+  width: 80%;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .li {
+    width: 160px;
+    min-height: 100px;
+    margin-left: auto;
+  }
+  .h1t {
+    font-size: small;
+    width: 100px;
+  }
+}
